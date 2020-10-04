@@ -1,0 +1,24 @@
+/* variable */
+/* my-css */
+body {
+  box-sizing: border-box; }
+
+.logo-style {
+  font-size: 35px !important;
+  color: #452268; }
+
+.my-header {
+  padding-top: 50px;
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/banner.png"); }
+  .my-header .navbar-nav {
+    padding-top: 5px;
+    padding-left: 100px; }
+    .my-header .navbar-nav .nav-item .nav-link {
+      color: #ABADAE; }
+    .my-header .navbar-nav .nav-item .ative-link {
+      color: #0A4065 !important; }
+
+/*# sourceMappingURL=my-style.css.map */

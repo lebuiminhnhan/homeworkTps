@@ -1,0 +1,33 @@
+/* variable */
+$main-color: #F98169;
+$color-title: #452268;
+/* my-css */
+
+body {
+    box-sizing: border-box;
+}
+.logo-style {
+    font-size: 35px !important;
+    color: $color-title;
+}
+.my-header {
+    padding-top: 50px;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/banner.png');
+    .navbar-nav {
+        padding-top: 5px;
+        padding-left: 100px;
+        .nav-item {
+            .nav-link {
+                color: #ABADAE;
+            }
+            .ative-link {
+                color: #0A4065 !important;
+            }
+    }
+    
+}
+    
+}
