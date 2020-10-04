@@ -3,6 +3,9 @@ $main-color: #F98169;
 $main-color-hover: #f5a899;
 $color-title: #452268;
 $color-text-description: #0C3653;
+$tablet: 767px;
+$mobile: 576px;
+$desktop: 991px;
 /* my-css */
 
 body {
@@ -10,7 +13,7 @@ body {
 }
 .logo-style {
     font-size: 35px !important;
-    color: $color-title;
+    color: $color-title !important;
 }
 .my-header {
     padding-top: 50px;
@@ -18,9 +21,18 @@ body {
     background-position: center;
     background-size: cover;
     background-image: url('../img/banner.png');
+    @media screen and (max-width: $mobile) {
+        padding-top: 0px;
+      }
+    .navbar .navbar-toggler .icon-bar {
+    background: black !important;
+    }
     .navbar-nav {
         padding-top: 5px;
         padding-left: 100px;
+        @media screen and (max-width: $desktop) {
+            padding-left: 15px;
+          }
         .nav-item {
             .nav-link {
                 color: #ABADAE;
@@ -61,6 +73,20 @@ body {
             color: white;
             background-color: $main-color-hover;    
         }
+    }
+    .btn-banner-group {
+        align-items: baseline;
+        display: flex;
+        @media screen and (max-width: $mobile) {
+            display: block;
+            text-align: center;
+            .text-watch {
+                padding-top: 15px;
+            }    
+        }
+    }
+    .cursor-pointer {
+        cursor: pointer;
     }
     
 }

@@ -5,7 +5,7 @@ body {
 
 .logo-style {
   font-size: 35px !important;
-  color: #452268; }
+  color: #452268 !important; }
 
 .my-header {
   padding-top: 50px;
@@ -13,9 +13,17 @@ body {
   background-position: center;
   background-size: cover;
   background-image: url("../img/banner.png"); }
+  @media screen and (max-width: 576px) {
+    .my-header {
+      padding-top: 0px; } }
+  .my-header .navbar .navbar-toggler .icon-bar {
+    background: black !important; }
   .my-header .navbar-nav {
     padding-top: 5px;
     padding-left: 100px; }
+    @media screen and (max-width: 991px) {
+      .my-header .navbar-nav {
+        padding-left: 15px; } }
     .my-header .navbar-nav .nav-item .nav-link {
       color: #ABADAE; }
     .my-header .navbar-nav .nav-item .ative-link {
@@ -45,5 +53,16 @@ body {
     .my-header .btn-play:hover {
       color: white;
       background-color: #f5a899; }
+  .my-header .btn-banner-group {
+    align-items: baseline;
+    display: flex; }
+    @media screen and (max-width: 576px) {
+      .my-header .btn-banner-group {
+        display: block;
+        text-align: center; }
+        .my-header .btn-banner-group .text-watch {
+          padding-top: 15px; } }
+  .my-header .cursor-pointer {
+    cursor: pointer; }
 
 /*# sourceMappingURL=my-style.css.map */
