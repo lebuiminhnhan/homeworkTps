@@ -20,5 +20,30 @@ body {
       color: #ABADAE; }
     .my-header .navbar-nav .nav-item .ative-link {
       color: #0A4065 !important; }
+  .my-header .title-banner {
+    padding-top: 20%;
+    font-size: 50px;
+    color: #452268; }
+  .my-header .des-banner {
+    color: #0C3653; }
+  .my-header .main-btn {
+    background-color: #F98169;
+    border: none;
+    border-radius: 0;
+    padding: 15px 50px; }
+    .my-header .main-btn:hover {
+      background-color: #f5a899; }
+  .my-header .text-primary {
+    color: #F98169 !important; }
+  .my-header .btn-play {
+    background-color: #F98169;
+    border: none;
+    border-radius: 100%;
+    color: white;
+    padding: 12px 7px 15px 24px;
+    outline: none !important; }
+    .my-header .btn-play:hover {
+      color: white;
+      background-color: #f5a899; }
 
 /*# sourceMappingURL=my-style.css.map */

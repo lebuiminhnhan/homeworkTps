@@ -1,6 +1,8 @@
 /* variable */
 $main-color: #F98169;
+$main-color-hover: #f5a899;
 $color-title: #452268;
+$color-text-description: #0C3653;
 /* my-css */
 
 body {
@@ -26,8 +28,39 @@ body {
             .ative-link {
                 color: #0A4065 !important;
             }
+        }
     }
-    
-}
+    .title-banner {
+        padding-top: 20%;
+        font-size: 50px;
+        color: $color-title;
+    }
+    .des-banner {
+        color: $color-text-description;
+    }
+    .main-btn{
+        background-color: $main-color;
+        border: none;
+        border-radius: 0;
+        padding: 15px 50px;
+        &:hover {
+            background-color: $main-color-hover;
+        }
+    }
+    .text-primary {
+        color: $main-color !important;
+    }
+    .btn-play {
+        background-color: $main-color;
+        border: none;
+        border-radius: 100%;
+        color: white;
+        padding: 12px 7px 15px 24px;
+        outline: none !important;
+        &:hover {
+            color: white;
+            background-color: $main-color-hover;    
+        }
+    }
     
 }
